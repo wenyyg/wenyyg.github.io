@@ -21,9 +21,28 @@
   <entry>
     <title>博客初建</title>
     <url>/%E5%8D%9A%E5%AE%A2%E5%88%9D%E5%BB%BA.html</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直想持续的做一件事， 但总是很迷茫 不知该做什么， 在浏览YouTube时 看到技术大咖们都有自己成熟的博客， 所以才想着自己搭建一个博客网站…</p>
+<div style="color:red; font-size: 20px">ps: 该环境在macOS下搭建完成</div>
+
+<p>本篇为0基础搭建， 内容包含以下：</p>
+<blockquote>
+<ol>
+<li><a href="#安装Git">安装Git</a></li>
+<li><a href="#安装Node.js">安装Node.js</a></li>
+<li><a href="#安装Hexo">安装Hexo</a></li>
+<li><a href="#Github创建个人仓库">Github创建个人仓库</a></li>
+<li><a href="#将文件托管到Github">将文件托管到Github</a></li>
+<li><a href="#配置环境">配置环境</a></li>
+<li><a href="#访问博客">访问博客</a></li>
+</ol>
+</blockquote>
+<h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><ul>
+<li><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">下载地址</a></li>
+<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">Git教程</a></li>
+</ul>
+<h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><h3 id="Github创建个人仓库"><a href="#Github创建个人仓库" class="headerlink" title="Github创建个人仓库"></a>Github创建个人仓库</h3><h3 id="将文件托管到Github"><a href="#将文件托管到Github" class="headerlink" title="将文件托管到Github"></a>将文件托管到Github</h3><h3 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h3><h3 id="访问博客"><a href="#访问博客" class="headerlink" title="访问博客"></a>访问博客</h3>]]></content>
       <categories>
-        <category>环境部署</category>
+        <category>hexo环境部署</category>
       </categories>
       <tags>
         <tag>hexo</tag>
