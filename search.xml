@@ -44,7 +44,7 @@
 <li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">下载地址</a></li>
 <li><a href="https://www.liaoxuefeng.com/wiki/1022910821149312/1023025235359040" target="_blank" rel="noopener">Git教程</a></li>
 </ul>
-<p>下载Node.js安装<br><img src="images/20200511104816.jpg" alt>继续 继续 继续 …<br>查看是否安装完成</p>
+<p>下载Node.js安装<br><img src="images/896043488029600.jpg" alt>继续 继续 继续 …<br>查看是否安装完成</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>
 <p><img src="images/20200511114037.jpg" alt>Node.js安装完成<br>ps:<br>git是一个版本控制工具，国外镜像下载巨慢，建议前往淘宝 Git for Windows 镜像下载 git 安装包。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.baobao.org</span><br></pre></td></tr></table></figure>
@@ -64,7 +64,19 @@
 本地4000端口访问博客  http://localhost:4000/</p>
 
 <p><img src="images/20200511183025.jpg" alt></p>
-<h3 id="Github创建个人仓库"><a href="#Github创建个人仓库" class="headerlink" title="Github创建个人仓库"></a>Github创建个人仓库</h3><h3 id="将文件托管到Github"><a href="#将文件托管到Github" class="headerlink" title="将文件托管到Github"></a>将文件托管到Github</h3><h3 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h3><h3 id="访问博客"><a href="#访问博客" class="headerlink" title="访问博客"></a>访问博客</h3>]]></content>
+<p>打开浏览器，我们可以看到我们用Hexo搭建好的使用默认主题的博客展现效果<br>也可以去<a href="https://hexo.io/themes" target="_blank" rel="noopener">Hexo主题官网</a>选择自己喜欢的主题风格</p>
+<h3 id="Github创建个人仓库"><a href="#Github创建个人仓库" class="headerlink" title="Github创建个人仓库"></a>Github创建个人仓库</h3><p>博客已创建完成，接下来需要把博客文件托管到远端， 我采用的是Github托管<br>接下来将博客部署到Github上</p>
+<p>打开<a href="https://github.com" target="_blank" rel="noopener">Github</a>，注册登录…</p>
+<h4 id="新建个人仓库"><a href="#新建个人仓库" class="headerlink" title="新建个人仓库"></a>新建个人仓库</h4><p><img src="images/20200511193919.jpg" alt></p>
+<p style="font-size: 18px; color: red">
+PS：部署个人博客的github仓库的命名<br>
+    必须是符合特定要求<br>
+    你的昵称.github.io
+</p>
+
+<h4 id="安装git部署插件"><a href="#安装git部署插件" class="headerlink" title="安装git部署插件"></a>安装git部署插件</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<h4 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h4><p><img src="images/20200511193919.jpg" alt><br>配置<br>type:git<br>repo: 仓库地址</p>
+<h3 id="将文件托管到Github"><a href="#将文件托管到Github" class="headerlink" title="将文件托管到Github"></a>将文件托管到Github</h3><h3 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h3><h3 id="访问博客"><a href="#访问博客" class="headerlink" title="访问博客"></a>访问博客</h3>]]></content>
       <categories>
         <category>hexo环境部署</category>
       </categories>
