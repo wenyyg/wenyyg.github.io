@@ -98,4 +98,16 @@ PS：部署个人博客的github仓库的命名<br>
         <tag>hexo</tag>
       </tags>
   </entry>
+  <entry>
+    <title>修改Hexo主题</title>
+    <url>/%E4%BF%AE%E6%94%B9Hexo%E4%B8%BB%E9%A2%98.html</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直想持续的做一件事， 但总是很迷茫 不知该做什么， 在浏览YouTube时 看到技术大咖们都有自己成熟的博客， 所以才想着自己搭建一个博客网站…</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
 </search>
